@@ -1,0 +1,15 @@
+<h1>Lista de libros</h1>
+
+<hr>
+
+{{#each allBooks}}
+<article>
+    <h3>{{title}}</h3>
+    {{#each author}}
+    <p>Autor: {{name}} {{lastName}}</p>
+    {{/each}}
+    <a href="/libros/detalles/{{_id}}" class="btn btn-sm btn-dark">Ver detalles</a>
+    <a href="/libros/editar?bookId={{_id}}" class="btn btn-sm btn-dark">Editar libro</a>
+</article>
+<hr>
+{{/each}}

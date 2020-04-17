@@ -1,0 +1,21 @@
+<h1>Detalles de {{title}}</h1>
+<hr>
+
+<div class="row justify-content-around">
+    <div class="col-md-6">
+        <h3>Especificaciones</h3>
+        <p><strong>Descripción</strong>: {{description}}</p>
+        <p><strong>Puntuación</strong>: {{rating}}/10</p>
+    </div>
+    <div class="col-md-4">
+        <h3>Autor/es</h3>
+        {{#each author}}
+        <img src="{{pictureUrl}}" alt="{{name}} {{lastName}}" style="width: 100%">
+        <p>{{name}} {{lastName}}</p>
+        {{/each}}
+    </div>
+</div>
+
+
+<hr>
+<a href="/libros/lista" class="btn btn-dark btn-sm">Volver a los libros</a>
