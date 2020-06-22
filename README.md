@@ -4,7 +4,6 @@
 >
 > Node | Basic Authorization, Autentication & Sessions
 
-Vídeo completo [en este enlace](https://ironhack.zoom.us/rec/share/4vxccaP--ENISafc6VvyR5E5HqjgX6a8h3Af_vZemBtEgIvrBXone2KviBL93fEY)
 
 ## Main points: document relationships (populating)
 
